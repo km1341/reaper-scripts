@@ -29,23 +29,22 @@ Then load via **Actions → Show action list → Load...**
 
 ## Scripts
 
-### Create Region Markers from Video Track Items
+### Create Region Markers from Items
 
-**File**: `km1341_Video_Items_to_Regions.lua`
+**File**: `km1341_Items_to_Regions.lua`
 
-Scans user-selected tracks for video items and creates Region Markers for each.
+Creates a Region Marker for each user-selected media item. Works with **any item type** -- audio, MIDI, video, etc.
 
 **Features**:
-- Only scans tracks that the user has selected
-- Detects video items by source type (VIDEO)
-- Uses Take name as Region label (falls back to `Video_001`, `Video_002`...)
-- Deduplication: skips items already covered by existing Region Markers (>=50% overlap)
+- Works with any selected media item type (audio, MIDI, video, etc.)
+- Creates one Region Marker per selected item
+- Uses Take name as Region label (falls back to `Region_001`, `Region_002`...)
 - All operations wrapped in a single undo block
 
 **Usage**:
-1. Select the track(s) containing your video items (click track name/number; Ctrl/Cmd for multi-select)
+1. Select the media item(s) in the arrange view (click to select; Ctrl/Cmd for multi-select)
 2. Run the script from the Action List
-3. Region Markers are created for each video item
+3. A Region Marker is created for each selected item
 
 ---
 

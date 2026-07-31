@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="km1341-reaper-scripts">
   <category name="Regions">
-    <reapack name="km1341_Video_Items_to_Regions.lua" type="script" desc="Create Region Markers from Video Track Items">
+    <reapack name="km1341_Items_to_Regions.lua" type="script" desc="Create Region Markers from Items">
       <version name="1.0" author="km1341">
-        <source file="km1341_Video_Items_to_Regions.lua" main="main">https://raw.githubusercontent.com/km1341/reaper-scripts/main/km1341_Video_Items_to_Regions.lua</source>
+        <source file="km1341_Items_to_Regions.lua" main="main">https://raw.githubusercontent.com/km1341/reaper-scripts/main/km1341_Items_to_Regions.lua</source>
         <changelog><![CDATA[Initial release.]]></changelog>
       </version>
     </reapack>
-    <reapack name="km1341_Selected_Items_to_Regions.lua" type="script" desc="Create Region Markers from Selected Items">
+    <reapack name="km1341_Selected_Items_to_Regions.lua" type="script" desc="Create Region Marker from Selected Items (Merged)">
       <version name="1.0" author="km1341">
         <source file="km1341_Selected_Items_to_Regions.lua" main="main">https://raw.githubusercontent.com/km1341/reaper-scripts/main/km1341_Selected_Items_to_Regions.lua</source>
         <changelog><![CDATA[Initial release.]]></changelog>
