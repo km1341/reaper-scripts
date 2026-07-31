@@ -1,6 +1,6 @@
 # km1341's REAPER Scripts
 
-[中文](README_CN.md)
+[English](README.md) | [中文](README_CN.md)
 
 A collection of REAPER Lua scripts for workflow automation, distributed via [ReaPack](https://reapack.com/).
 

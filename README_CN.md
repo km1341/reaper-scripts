@@ -1,6 +1,6 @@
 # km1341's REAPER 脚本
 
-[English](README.md)
+[English](README.md) | [中文](README_CN.md)
 
 一套 REAPER Lua 工作流自动化脚本，通过 [ReaPack](https://reapack.com/) 分发。
 
