@@ -65,6 +65,25 @@ Creates Region Markers from user-selected media items (event blocks) in the arra
 2. Run the script from the Action List
 3. A Region Marker is created covering the time range of the selected items
 
+---
+
+### Render Selected Regions
+
+**File**: `km1341_Render_Selected_Regions.lua`
+
+Opens the Render dialog configured to render selected regions via master mix.
+
+**Features**:
+- Automatically sets render bounds to selected regions
+- Opens the Render dialog for format and parameter configuration
+- Works with regions selected in the Region/Marker Manager
+
+**Usage**:
+1. Select the region(s) in the **Region/Marker Manager** (`Alt+M`)
+2. Run the script from the Action List
+3. Configure output format and parameters in the Render dialog
+4. Click **Render**
+
 ## Tips
 
 - View all regions in **Marker/Region Manager** (`Alt+M`)
