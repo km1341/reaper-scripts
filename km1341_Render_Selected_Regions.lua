@@ -1,19 +1,13 @@
 -- @description Render Selected Regions
--- @version 1.0
+-- @version 1.1
 -- @author km1341
 -- @about
---   Opens the Render dialog configured for selected regions via master mix.
+--   Opens the Render dialog for rendering selected regions via master mix.
 --   Select regions in the Region/Marker Manager before running.
---   Choose output format and parameters in the Render dialog.
+--   In the Render dialog, set Bounds to "Selected regions" and configure output format.
 
 local function main()
-  reaper.Undo_BeginBlock2(0)
-
-  reaper.GetSetProjectInfo_String(0, "RENDER_BOUNDS", "4", true)
-
-  reaper.Main_OnCommand(41823, 0)
-
-  reaper.Undo_EndBlock2(0, "Open render dialog for selected regions", -1)
+  reaper.Main_OnCommand(40015, 0)
 end
 
 main()
