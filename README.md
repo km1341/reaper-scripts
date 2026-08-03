@@ -67,22 +67,25 @@ Creates Region Markers from user-selected media items (event blocks) in the arra
 
 ---
 
-### Render Selected Regions
+### Render Selected Tracks via Master
 
-**File**: `km1341_Render_Selected_Regions.lua`
+**File**: `km1341_Render_Selected_Tracks.lua`
 
-Opens the Render dialog configured to render selected regions via master mix.
+Renders all project regions through the master bus, with only selected tracks passing through master. Disables master/parent send for non-selected tracks before opening the Render dialog.
 
 **Features**:
-- Automatically sets render bounds to selected regions
+- Disables master/parent send for non-selected tracks before render
+- Ensures only selected tracks pass through the master bus
+- Sets render bounds to all project regions
 - Opens the Render dialog for format and parameter configuration
-- Works with regions selected in the Region/Marker Manager
+- All track routing changes wrapped in a single undo block
 
 **Usage**:
-1. Select the region(s) in the **Region/Marker Manager** (`Alt+M`)
+1. Select the track(s) to render (click track name/number; Ctrl/Cmd for multi-select)
 2. Run the script from the Action List
 3. Configure output format and parameters in the Render dialog
 4. Click **Render**
+5. Use **Undo** (`Ctrl+Z` / `Cmd+Z`) to restore master sends
 
 ## Tips
 
