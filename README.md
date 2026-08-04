@@ -67,6 +67,24 @@ Creates Region Markers from user-selected media items (event blocks) in the arra
 
 ---
 
+### Snap Region Markers to Selected Item
+
+**File**: `km1341_Snap_Region_to_Item.lua`
+
+Adjusts all region markers that overlap with a selected media item to match the item's start and end positions.
+
+**Features**:
+- Finds all region markers overlapping with the selected item
+- Resizes overlapping regions to exactly match the item's time range
+- All operations wrapped in a single undo block
+
+**Usage**:
+1. Select a media item in the arrange view
+2. Run the script from the Action List
+3. All overlapping region markers are snapped to the item's boundaries
+
+---
+
 ### Open Render Dialog with Region Render Matrix
 
 **File**: `km1341_Render_Selected_Tracks.lua`

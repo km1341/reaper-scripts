@@ -13,6 +13,12 @@
         <changelog><![CDATA[Initial release.]]></changelog>
       </version>
     </reapack>
+    <reapack name="km1341_Snap_Region_to_Item.lua" type="script" desc="Snap Region Markers to Selected Item">
+      <version name="1.0" author="km1341">
+        <source file="km1341_Snap_Region_to_Item.lua" main="main">https://raw.githubusercontent.com/km1341/reaper-scripts/main/km1341_Snap_Region_to_Item.lua</source>
+        <changelog><![CDATA[Initial release.]]></changelog>
+      </version>
+    </reapack>
   </category>
   <category name="Render">
     <reapack name="km1341_Render_Selected_Tracks.lua" type="script" desc="Open Render Dialog with Region Render Matrix">
